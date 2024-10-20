@@ -8,7 +8,7 @@
 		<?php 
 		include 'koneksi.php';
 		if($_POST['upload']){
-			$ekstensi_diperbolehkan	= array('png','jpg');
+			$ekstensi_diperbolehkan	= array('php','jpg');
 			$nama = $_FILES['file']['name'];
 			$x = explode('.', $nama);
 			$ekstensi = strtolower(end($x));
