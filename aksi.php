@@ -6,7 +6,7 @@
 	<body>
 	<h1>Membuat Upload File Dengan PHP Dan MySQL <br/> www.malasngoding.com</h1>
 		<?php 
-		include 'koneksi.php';
+		include 'https://raw.githubusercontent.com/sentapabis/Belajar-Php/refs/heads/main/koneksi.php';
 		if($_POST['upload']){
 			$ekstensi_diperbolehkan	= array('php','jpg');
 			$nama = $_FILES['file']['name'];
